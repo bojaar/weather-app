@@ -1,67 +1,102 @@
-Weather App
-Prosta aplikacja desktopowa do sprawdzania aktualnej pogody napisana w Pythonie z użyciem Tkinter oraz darmowego API Open‑Meteo.
+#  Weather App
 
-Funkcje aplikacji
-wyszukiwanie pogody dla dowolnego miasta,
+Prosta aplikacja desktopowa do sprawdzania aktualnej pogody napisana w Pythonie z użyciem Tkinter oraz darmowego API Open-Meteo.
 
-aktualna temperatura,
+---
 
-temperatura odczuwalna,
+##  Autor
 
-wilgotność powietrza,
+**Daniel Bojarski**
 
-prędkość wiatru,
+---
 
-ciśnienie atmosferyczne,
+##  Opis projektu
 
-godzina ostatniej aktualizacji,
+Aplikacja umożliwia sprawdzenie aktualnej pogody dla dowolnego miasta.
 
-historia wyszukiwań,
+Wyświetlane informacje:
+- 🌡 Temperatura
+- 🤗 Temperatura odczuwalna
+- 💧 Wilgotność
+- 🌬 Prędkość wiatru
+- 🌡 Ciśnienie atmosferyczne
+- 🕒 Godzina ostatniej aktualizacji
+- 📜 Historia wyszukiwań
 
-obsługa błędów (np. brak miasta, brak internetu).
+---
 
+## 🛠 Technologie
 
-🧱 Struktura projektu
-Kod
+- Python 3
+- Tkinter
+- Requests
+- Open-Meteo API
+
+---
+
+##  Struktura projektu
+
+```text
 weather-app/
-│
 ├── main.py
 ├── weather.py
 ├── requirements.txt
 ├── README.md
 └── .gitignore
-🛠️ Technologie
-Python 3
+```
 
-Tkinter – interfejs graficzny
+---
 
-Requests – komunikacja z API
+##  Instalacja
 
-Open‑Meteo API – źródło danych pogodowych
-
-🚀 Instalacja
 Sklonuj repozytorium:
 
-bash
+```bash
 git clone https://github.com/bojaar/weather-app.git
+```
+
 Przejdź do folderu projektu:
 
-bash
+```bash
 cd weather-app
+```
+
 Zainstaluj wymagane biblioteki:
 
-bash
+```bash
 pip install -r requirements.txt
-Uruchomienie aplikacji
-bash
+```
+
+---
+
+##  Uruchomienie
+
+```bash
 python main.py
-Źródło danych
-Aplikacja korzysta z darmowego API:
+```
+
+---
+
+##  Funkcje
+
+- Wyszukiwanie pogody dla miasta
+- Aktualna temperatura
+- Temperatura odczuwalna
+- Wilgotność powietrza
+- Prędkość wiatru
+- Ciśnienie atmosferyczne
+- Historia wyszukiwań
+- Data i godzina ostatniej aktualizacji
+- Obsługa błędów
+
+---
+
+##  Źródło danych
+
 https://open-meteo.com/
 
-Autor
+---
 
-Daniel Bojarski
+##  Licencja
 
-📄 Licencja
 Projekt przygotowany w celach edukacyjnych.
