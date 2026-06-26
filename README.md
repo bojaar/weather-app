@@ -25,7 +25,7 @@ Wyświetlane informacje:
 
 ---
 
-## 🛠 Technologie
+##  Technologie
 
 - Python 3
 - Tkinter
@@ -52,7 +52,7 @@ weather-app/
 Sklonuj repozytorium:
 
 ```bash
-git clone https://github.com/bojaar/weather-app.git
+git clone https://github.com/bojaar/weather-app
 ```
 
 Przejdź do folderu projektu:
